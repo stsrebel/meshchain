@@ -541,7 +541,7 @@ class MeshChain:
                         self.log(f"{Fore.CYAN + Style.BRIGHT}-{Style.RESET_ALL}"*75)
                         time.sleep(3)
 
-                seconds = 1800
+                seconds = 7200
                 while seconds > 0:
                     formatted_time = self.format_seconds(seconds)
                     print(
